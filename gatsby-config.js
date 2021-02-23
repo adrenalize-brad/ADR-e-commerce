@@ -1,23 +1,16 @@
+require(`dotenv`).config();
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Adrenalize Digital e-Commerce Starter`,
+    description: `Kickstart your e-commerce project with Adrenalize Digital today!`,
+    author: `Brad Smith`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-postcss',
     'gatsby-plugin-mdx',
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        postCssPlugins: [
-          require("tailwindcss"),
-          require("./tailwind.config.js"),
-        ],
-      },
-    },
+    `gatsby-plugin-sass`,
   ],
 }
