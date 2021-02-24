@@ -1,10 +1,9 @@
 import React from 'react'
-import SEO from './seo'
+import SEO from '../SEO/seo'
 import Header from './header'
 import Footer from './footer'
-import '../styles/styles.scss';
 
-const Layout = ({ children} ) => {
+const Layout = ({ children } ) => {
 
 
   return (

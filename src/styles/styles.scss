@@ -79,3 +79,25 @@ html{
 header,body,footer{
     background-color:$white;
 }
+// MOBILE NAVIGATION //
+
+.mobile-menu{
+    display:flex;
+}
+
+.desktop-menu{
+    display:none;
+}
+
+// DESKTOP NAVIGATION //
+
+@media only screen and (min-width: 768px)  {
+
+    .mobile-menu{
+        display:none;
+    }
+
+    .desktop-menu{
+        display:flex;
+    }
+}

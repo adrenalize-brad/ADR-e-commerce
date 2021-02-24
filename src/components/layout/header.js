@@ -1,9 +1,15 @@
 import React from "react"
+import MobileNav from '../navigation/mobileNav'
 
 const Header = () => {
   
   return(
-    <div>Header</div>
+
+    <div>
+
+      <MobileNav/>
+
+    </div>
   )
 
 }
